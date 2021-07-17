@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>551</width>
+    <height>646</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>20</y>
+     <width>442</width>
+     <height>600</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <property name="sizeConstraint">
+     <enum>QLayout::SetMinimumSize</enum>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <item row="7" column="2" colspan="2">
+     <widget class="QPushButton" name="pushButton_7">
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;DejaVu Sans&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Down</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="QLabel" name="label_5">
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;Serif&quot;;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="2">
+     <widget class="QPushButton" name="pushButton_3">
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;DejaVu Sans&quot;;</string>
+      </property>
+      <property name="text">
+       <string>On</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="2" colspan="2">
+     <widget class="QPushButton" name="pushButton_6">
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;DejaVu Sans&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Up</string>
+      </property>
+     </widget>
+    </item>
+    <item row="13" column="2" colspan="2">
+     <spacer name="horizontalSpacer_7">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="11" column="1">
+     <widget class="QLCDNumber" name="lcdNumber_2"/>
+    </item>
+    <item row="11" column="2">
+     <widget class="QPushButton" name="pushButton_8">
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;DejaVu Sans&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Start</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="0" colspan="4">
+     <widget class="QSlider" name="horizontalSlider">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="minimum">
+       <number>-90</number>
+      </property>
+      <property name="maximum">
+       <number>90</number>
+      </property>
+      <property name="pageStep">
+       <number>5</number>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="tickPosition">
+       <enum>QSlider::TicksBelow</enum>
+      </property>
+      <property name="tickInterval">
+       <number>5</number>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="2" colspan="2">
+     <spacer name="horizontalSpacer_6">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="14" column="2">
+     <widget class="QPushButton" name="pushButton_10">
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;DejaVu Sans&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Play</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_2">
+      <property name="styleSheet">
+       <string notr="true">font: 75 16pt &quot;Quicksand&quot;;</string>
+      </property>
+      <property name="text">
+       <string>LED1 : </string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="14" column="0" colspan="2">
+     <widget class="QLabel" name="label_10">
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;URW Bookman L&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Airplane</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="0">
+     <widget class="QLabel" name="label_8">
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;Quicksand&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Distance :</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="3">
+     <widget class="QPushButton" name="pushButton_2">
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;DejaVu Sans&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Off</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label_4">
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;Quicksand&quot;;</string>
+      </property>
+      <property name="text">
+       <string>LED2 : </string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="2">
+     <widget class="QPushButton" name="pushButton">
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;DejaVu Sans&quot;;</string>
+      </property>
+      <property name="text">
+       <string>On</string>
+      </property>
+     </widget>
+    </item>
+    <item row="13" column="0" colspan="2">
+     <widget class="QLabel" name="label_9">
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;QuickSand&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Piezo buzzer</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QLabel" name="label_3">
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;Serif&quot;;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="15" column="2">
+     <widget class="QPushButton" name="pushButton_12">
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;DejaVu Sans&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Play</string>
+      </property>
+     </widget>
+    </item>
+    <item row="14" column="3">
+     <widget class="QPushButton" name="pushButton_11">
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;DejaVu Sans&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Pause</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="3">
+     <widget class="QPushButton" name="pushButton_4">
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;DejaVu Sans&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Off</string>
+      </property>
+     </widget>
+    </item>
+    <item row="15" column="0" colspan="2">
+     <widget class="QLabel" name="label_11">
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;URW Bookman L&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Little Star</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="17" column="0" colspan="4">
+     <widget class="QPushButton" name="pushButton_5">
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;DejaVu Sans&quot;;</string>
+      </property>
+      <property name="text">
+       <string>exit</string>
+      </property>
+     </widget>
+    </item>
+    <item row="15" column="3">
+     <widget class="QPushButton" name="pushButton_13">
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;DejaVu Sans&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Pause</string>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="3">
+     <widget class="QPushButton" name="pushButton_9">
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;DejaVu Sans&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Stop</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0" rowspan="2" colspan="2">
+     <widget class="QLCDNumber" name="lcdNumber">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0" colspan="2">
+     <widget class="QLabel" name="label_6">
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;Quicksand&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Servo Motor</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="2" colspan="2">
+     <spacer name="horizontalSpacer_5">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="16" column="0" colspan="4">
+     <spacer name="horizontalSpacer">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="9" column="0" colspan="4">
+     <spacer name="horizontalSpacer_3">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="10" column="0" colspan="2">
+     <widget class="QLabel" name="label_7">
+      <property name="styleSheet">
+       <string notr="true">font: 16pt &quot;QuickSand&quot;;</string>
+      </property>
+      <property name="text">
+       <string>Ultrasound Sensor</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item row="12" column="0" colspan="4">
+     <spacer name="horizontalSpacer_2">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="4" column="0" colspan="4">
+     <spacer name="horizontalSpacer_4">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="1" column="0" colspan="4">
+     <spacer name="horizontalSpacer_8">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>40</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="0" column="0" colspan="4">
+     <widget class="QLabel" name="label">
+      <property name="styleSheet">
+       <string notr="true">font: 75 20pt &quot;DejaVu Sans&quot;;</string>
+      </property>
+      <property name="text">
+       <string>MINI Project</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton_5</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>slot_exit()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>31</x>
+     <y>615</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>193</x>
+     <y>237</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>slot_led1_on()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>363</x>
+     <y>126</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>103</x>
+     <y>55</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>slot_led1_off()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>402</x>
+     <y>123</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>316</x>
+     <y>75</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_3</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>slot_led2_on()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>284</x>
+     <y>160</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>126</x>
+     <y>134</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_4</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>slot_led2_off()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>485</x>
+     <y>163</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>213</x>
+     <y>133</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>horizontalSlider</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>lcdNumber</receiver>
+   <slot>display(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>170</x>
+     <y>312</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>160</x>
+     <y>288</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_6</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>slot_motor_up()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>440</x>
+     <y>244</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>421</x>
+     <y>155</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_7</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>slot_motor_down()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>417</x>
+     <y>273</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>419</x>
+     <y>194</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>horizontalSlider</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>Form</receiver>
+   <slot>slot_slider()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>376</x>
+     <y>323</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>418</x>
+     <y>240</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_8</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>slot_ultra_start()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>293</x>
+     <y>417</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>15</x>
+     <y>430</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_9</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>slot_ultra_stop()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>430</x>
+     <y>425</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>18</x>
+     <y>380</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_12</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>slot_star_play()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>294</x>
+     <y>559</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>9</x>
+     <y>561</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_13</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>slot_star_pause()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>403</x>
+     <y>553</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>6</x>
+     <y>594</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_10</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>slot_plane_play()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>293</x>
+     <y>516</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>21</x>
+     <y>526</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_11</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>slot_plane_pause()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>442</x>
+     <y>517</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>13</x>
+     <y>484</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>slot_exit()</slot>
+  <slot>slot_led1_on()</slot>
+  <slot>slot_led1_off()</slot>
+  <slot>slot_led2_on()</slot>
+  <slot>slot_led2_off()</slot>
+  <slot>slot_motor_up()</slot>
+  <slot>slot_motor_down()</slot>
+  <slot>slot_slider()</slot>
+  <slot>slot_ultra_start()</slot>
+  <slot>slot_ultra_stop()</slot>
+  <slot>slot_plane_play()</slot>
+  <slot>slot_plane_pause()</slot>
+  <slot>slot_star_play()</slot>
+  <slot>slot_star_pause()</slot>
+ </slots>
+</ui>
